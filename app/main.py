@@ -44,12 +44,21 @@ app = Flask(__name__)
 # generate a 16-byte random token (hex encoded)
 # print(secrets.token_hex(16))
 app.secret_key = os.environ.get('FLASK_SECRET_KEY', '3e59e99addb9052eb7da6ab9935e49c3')
-app.permanent_session_lifetime = timedelta(minutes=30)
+app.permanent_session_lifetime = timedelta(minutes=60)
 
 # Initialize Firebase
-# cred = credentials.Certificate("firebase/diaryiq-firebase-adminsdk-fbsvc-4465f48c80.json")
-cred = credentials.Certificate("firebase/pearl-dairy-farms-limited-firebase-adminsdk-fbsvc-bb41b494a5.json")
-# cred = credentials.Certificate("firebase_key.json")
+# # cred = credentials.Certificate("firebase/diaryiq-firebase-adminsdk-fbsvc-4465f48c80.json")
+# cred = credentials.Certificate("firebase/pearl-dairy-farms-limited-firebase-adminsdk-fbsvc-bb41b494a5.json")
+# # cred = credentials.Certificate("firebase_key.json")
+# firebase_admin.initialize_app(cred)
+firebase_json = os.getenv("GOOGLE_APPLICATION_CREDENTIALS_JSON")
+
+if firebase_json:
+    cred_dict = json.loads(firebase_json)
+    cred = credentials.Certificate(cred_dict)
+else:
+    raise ValueError("Firebase credentials not found in environment variables.")
+
 firebase_admin.initialize_app(cred)
 
 db = firestore.client()
