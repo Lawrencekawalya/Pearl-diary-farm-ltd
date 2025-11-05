@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="{{ url_for('static', filename='favicon.png') }}"
+    />
+    <title>Milk Quality Predictor - DairyIQ</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      /* ===== GLOBAL STYLES ===== */
+      :root {
+        --primary: #2c3e50;
+        --secondary: #3498db;
+        --success: #2ecc71;
+        --warning: #f39c12;
+        --danger: #e74c3c;
+        --light: #ecf0f1;
+        --dark: #2c3e50;
+        --gray: #95a5a6;
+        --white: #ffffff;
+        --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        --transition: all 0.3s ease;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+      }
+
+      /* body {
+        background-color: #f8f9fa;
+        color: #333;
+        line-height: 1.6;
+        overflow-x: hidden;
+        padding-top: 80px;
+      } */
+      html,
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        color: #333;
+        padding-top: 35px;
+        overflow-y: scroll; /* enable vertical scroll */
+        overflow-x: hidden; /* prevent horizontal scroll */
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* IE/Edge Legacy */
+      }
+
+      html::-webkit-scrollbar,
+      body::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Edge, Opera */
+      }
+
+      /* ===== NAVIGATION ===== */
+      nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: var(--primary);
+        padding: 15px 30px;
+        font-size: 18px;
+        color: var(--white);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1000;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .nav-brand {
+        font-size: 22px;
+        font-weight: bold;
+        white-space: nowrap;
+      }
+
+      .nav-actions {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+
+      .nav-btn {
+        padding: 8px 20px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border: none;
+        color: white;
+        border-radius: 5px;
+        font-weight: 500;
+        text-decoration: none;
+        transition: var(--transition);
+      }
+
+      .nav-btn:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        transform: translateY(-2px);
+      }
+
+      .nav-btn.logout {
+        background-color: var(--danger);
+      }
+
+      .nav-btn.logout:hover {
+        background-color: #c0392b;
+      }
+
+      .nav-link {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      /* ===== MAIN CONTENT ===== */
+      .container {
+        max-width: 1000px;
+        margin: 0 auto 30px;
+        padding: 0 20px;
+      }
+
+      .dashboard {
+        /* background: var(--white); */
+        border-radius: 12px;
+        /* box-shadow: var(--card-shadow); */
+        overflow: hidden;
+        margin-bottom: 30px;
+      }
+
+      .dashboard-header {
+        padding: 25px 30px;
+        /* border-bottom: 1px solid #eee; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background: var(--primary); */
+        /* color: var(--white); */
+        color: var(--primary);
+      }
+
+      .dashboard-header h2 {
+        font-size: 24px;
+        font-weight: 600;
+      }
+
+      /* ===== FORM STYLES ===== */
+      .predictor-form {
+        background: var(--white);
+        padding: 30px;
+        border-radius: 10px;
+        width: 100%;
+        margin: 0 auto;
+        box-shadow: var(--card-shadow);
+      }
+
+      .form-section {
+        margin-bottom: 30px;
+      }
+
+      .section-heading {
+        margin-bottom: 20px;
+        color: var(--primary);
+        font-size: 18px;
+        font-weight: 600;
+        padding-bottom: 10px;
+        border-bottom: 2px solid var(--secondary);
+      }
+
+      .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin-bottom: 20px;
+      }
+
+      .form-group {
+        margin-bottom: 20px;
+        width: 100%;
+      }
+
+      .form-group label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 500;
+        color: var(--dark);
+      }
+
+      .form-group input {
+        width: 100%;
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        font-size: 16px;
+        transition: var(--transition);
+      }
+
+      .form-group input:focus {
+        outline: none;
+        border-color: var(--secondary);
+        box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+      }
+
+      .form-group input[readonly] {
+        background-color: #f5f5f5;
+        color: #777;
+        cursor: not-allowed;
+      }
+
+      .btn-group {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        margin-top: 10px;
+      }
+
+      .btn {
+        padding: 12px 20px;
+        background: var(--secondary);
+        color: var(--white);
+        text-decoration: none;
+        border-radius: 6px;
+        transition: var(--transition);
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .btn:hover {
+        background: #2980b9;
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .btn-secondary {
+        background: var(--gray);
+      }
+
+      .btn-secondary:hover {
+        background: #7f8c8d;
+      }
+
+      /* ===== RESULT STYLES ===== */
+      .result-card {
+        background: var(--white);
+        border-radius: 10px;
+        padding: 25px;
+        box-shadow: var(--card-shadow);
+        margin-top: 30px;
+        text-align: center;
+        border-left: 4px solid var(--success);
+      }
+
+      .result-title {
+        font-weight: 600;
+        margin-bottom: 15px;
+        color: var(--primary);
+        font-size: 18px;
+      }
+
+      .quality-result {
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+
+      .quality-high {
+        color: var(--success);
+      }
+
+      .quality-moderate {
+        color: var(--warning);
+      }
+
+      .quality-low {
+        color: var(--danger);
+      }
+
+      /* ===== LOADING OVERLAY ===== */
+      #loadingOverlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.95);
+        z-index: 2000;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .gears {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 20px;
+      }
+
+      .gear {
+        width: 50px;
+        height: 50px;
+        border: 8px solid var(--secondary);
+        border-radius: 50%;
+        position: relative;
+        animation: spin 2s linear infinite;
+      }
+
+      .gear::before,
+      .gear::after {
+        content: "";
+        position: absolute;
+        width: 8px;
+        height: 20px;
+        background: var(--secondary);
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .gear::after {
+        top: auto;
+        bottom: -10px;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .loader-logo {
+        width: 80px;
+        height: auto;
+        margin: 0 15px;
+      }
+
+      #loadingOverlay p {
+        font-size: 18px;
+        font-weight: bold;
+        color: var(--primary);
+      }
+
+      /* ===== FOOTER ===== */
+      footer {
+        text-align: center;
+        margin-top: 40px;
+        padding: 20px;
+        color: var(--gray);
+        font-size: 14px;
+      }
+
+      /* ===== RESPONSIVE STYLES ===== */
+      @media (max-width: 768px) {
+        nav {
+          padding: 15px;
+        }
+
+        .nav-actions {
+          flex-wrap: wrap;
+          justify-content: flex-end;
+        }
+
+        .container {
+          padding: 0 15px;
+        }
+
+        .predictor-form {
+          padding: 20px;
+        }
+
+        .form-row {
+          grid-template-columns: 1fr;
+        }
+
+        .btn-group {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 576px) {
+        body {
+          padding-top: 100px;
+        }
+
+        .nav-brand {
+          font-size: 18px;
+        }
+
+        .nav-btn {
+          padding: 6px 12px;
+          font-size: 14px;
+        }
+
+        .dashboard-header h2 {
+          font-size: 20px;
+        }
+
+        .section-heading {
+          font-size: 16px;
+        }
+
+        .quality-result {
+          font-size: 24px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <a href="{{ url_for('index') }}" class="nav-link">
+        <div class="nav-brand">DairyIQ Analytics</div>
+      </a>
+
+      <div class="nav-actions">
+        <a href="{{ url_for('history') }}" class="nav-btn">
+          <i class="fas fa-history"></i> Historical Data
+        </a>
+        <a href="{{ url_for('logout') }}" class="nav-btn logout">
+          <i class="fas fa-sign-out-alt"></i> Logout
+        </a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="dashboard">
+        <header class="dashboard-header">
+          <h2><i class="fas fa-flask"></i> Milk Quality Predictor</h2>
+        </header>
+
+        <form
+          class="predictor-form"
+          id="milkForm"
+          method="POST"
+          action="/predict"
+        >
+          <!-- Batch Info Section -->
+          <div id="batchInfo">
+            <div class="form-section">
+              <h3 class="section-heading">
+                <i class="fas fa-info-circle"></i> Batch Information
+              </h3>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="farmer">Farmer's Full Name</label>
+                  <input
+                    type="text"
+                    name="farmer"
+                    placeholder="Enter farmer's name"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="contact">Contact Details</label>
+                  <input
+                    type="text"
+                    name="contact"
+                    placeholder="Enter contact information"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="location">Farm Location</label>
+                  <input
+                    type="text"
+                    name="location"
+                    placeholder="Enter farm location"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="transport_details">Transport Details</label>
+                  <input
+                    type="text"
+                    name="transport_details"
+                    placeholder="Enter transport details"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="time_of_collection">Collection Date</label>
+                  <input
+                    type="date"
+                    name="time_of_collection"
+                    id="time_of_collection"
+                    readonly
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="batch_number">Batch Number</label>
+                  <input
+                    type="text"
+                    name="batch_number"
+                    id="batch_number"
+                    readonly
+                  />
+                </div>
+              </div>
+
+              <button type="button" id="nextBtn" class="btn">
+                <i class="fas fa-arrow-right"></i> Continue to Testing
+              </button>
+            </div>
+          </div>
+
+          <!-- Predictor Section (hidden initially) -->
+          <div id="predictorForm" style="display: none">
+            <div class="form-section">
+              <h3 class="section-heading">
+                <i class="fas fa-vial"></i> Testing Parameters
+              </h3>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="ph">pH Level</label>
+                  <input
+                    type="text"
+                    name="ph"
+                    placeholder="Enter pH value"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="temperature">Temperature (°C)</label>
+                  <input
+                    type="text"
+                    name="temperature"
+                    placeholder="Enter temperature"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="fat">Fat Content (%)</label>
+                  <input
+                    type="text"
+                    name="fat"
+                    placeholder="Enter fat content"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="snf">SNF (Solids-not-fat)</label>
+                  <input
+                    type="text"
+                    name="snf"
+                    placeholder="Enter SNF value"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="acidity">Titratable Acidity</label>
+                  <input
+                    type="text"
+                    name="acidity"
+                    placeholder="Enter acidity value"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="protein">Protein Content (%)</label>
+                  <input
+                    type="text"
+                    name="protein"
+                    placeholder="Enter protein content"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="lactose">Lactose Content (%)</label>
+                  <input
+                    type="text"
+                    name="lactose"
+                    placeholder="Enter lactose content"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="tpc">Total Plate Count (TPC)</label>
+                  <input
+                    type="text"
+                    name="tpc"
+                    placeholder="Enter TPC value"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="scc">Somatic Cell Count</label>
+                <input
+                  type="text"
+                  name="scc"
+                  placeholder="Enter SCC value"
+                  required
+                />
+              </div>
+
+              <div class="btn-group">
+                <button type="button" id="backBtn" class="btn btn-secondary">
+                  <i class="fas fa-arrow-left"></i> Back to Batch Info
+                </button>
+                <button type="submit" class="btn">
+                  <i class="fas fa-calculator"></i> Predict Quality
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+
+        {% if prediction %}
+        <div class="result-card">
+          <div class="result-title">Predicted Milk Quality</div>
+          <div class="quality-result {{ prediction|lower|replace(' ', '-') }}">
+            {{ prediction }}
+          </div>
+          <p>Based on the provided testing parameters</p>
+        </div>
+        {% endif %}
+      </div>
+
+      <footer>&copy; 2023 DairyIQ Analytics. All rights reserved.</footer>
+    </div>
+
+    <!-- Loading overlay -->
+    <div id="loadingOverlay">
+      <div class="gears">
+        <div class="gear"></div>
+        <img
+          src="{{ url_for('static', filename='favicon.png') }}"
+          alt="DairyIQ Logo"
+          class="loader-logo"
+        />
+        <div class="gear"></div>
+      </div>
+      <p>Machine Learning in Progress...</p>
+    </div>
+
+    <script>
+      // Generate unique batch number when form loads
+      document.getElementById("batch_number").value = "BATCH-" + Date.now();
+
+      // Set current date
+      const now = new Date();
+      document.getElementById("time_of_collection").value = now
+        .toISOString()
+        .split("T")[0];
+
+      // Form navigation
+      const nextBtn = document.getElementById("nextBtn");
+      const backBtn = document.getElementById("backBtn");
+      const batchInfo = document.getElementById("batchInfo");
+      const predictorForm = document.getElementById("predictorForm");
+      const milkForm = document.getElementById("milkForm");
+
+      nextBtn.addEventListener("click", () => {
+        batchInfo.style.display = "none";
+        predictorForm.style.display = "block";
+      });
+
+      backBtn.addEventListener("click", () => {
+        predictorForm.style.display = "none";
+        batchInfo.style.display = "block";
+      });
+
+      milkForm.addEventListener("submit", function () {
+        document.getElementById("loadingOverlay").style.display = "flex";
+      });
+    </script>
+  </body>
+</html>

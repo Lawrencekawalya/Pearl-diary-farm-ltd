@@ -1,0 +1,617 @@
+2025-10-13 10:48:16,300 - WARNING -  * Debugger is active!
+2025-10-13 10:48:16,321 - INFO -  * Debugger PIN: 118-908-646
+2025-10-13 10:48:17,095 - INFO - 127.0.0.1 - - [13/Oct/2025 10:48:17] "GET /index HTTP/1.1" 200 -
+2025-10-13 10:48:17,096 - INFO - 127.0.0.1 - - [13/Oct/2025 10:48:17] "GET /index HTTP/1.1" 200 -
+2025-10-13 10:48:17,264 - INFO - 127.0.0.1 - - [13/Oct/2025 10:48:17] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 10:48:54,617 - INFO - 127.0.0.1 - - [13/Oct/2025 10:48:54] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-10-13 10:48:56,663 - INFO - 127.0.0.1 - - [13/Oct/2025 10:48:56] "GET /result/neSAMGKCoLB5TGYMycXx HTTP/1.1" 200 -
+2025-10-13 10:48:56,784 - INFO - 127.0.0.1 - - [13/Oct/2025 10:48:56] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 10:49:05,649 - INFO - 127.0.0.1 - - [13/Oct/2025 10:49:05] "GET /index HTTP/1.1" 200 -
+2025-10-13 10:49:05,754 - INFO - 127.0.0.1 - - [13/Oct/2025 10:49:05] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 10:49:19,824 - INFO - 127.0.0.1 - - [13/Oct/2025 10:49:19] "GET /history HTTP/1.1" 200 -
+2025-10-13 10:49:20,217 - INFO - 127.0.0.1 - - [13/Oct/2025 10:49:20] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 10:50:26,706 - INFO - 127.0.0.1 - - [13/Oct/2025 10:50:26] "GET /history HTTP/1.1" 200 -
+2025-10-13 10:50:26,847 - INFO - 127.0.0.1 - - [13/Oct/2025 10:50:26] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 10:50:53,179 - INFO - 127.0.0.1 - - [13/Oct/2025 10:50:53] "GET /index HTTP/1.1" 200 -
+2025-10-13 10:50:53,273 - INFO - 127.0.0.1 - - [13/Oct/2025 10:50:53] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 10:51:44,488 - INFO - 127.0.0.1 - - [13/Oct/2025 10:51:44] "GET /index HTTP/1.1" 200 -
+2025-10-13 10:51:44,611 - INFO - 127.0.0.1 - - [13/Oct/2025 10:51:44] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 10:51:44,706 - INFO - 127.0.0.1 - - [13/Oct/2025 10:51:44] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-13 10:52:24,367 - INFO - 127.0.0.1 - - [13/Oct/2025 10:52:24] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-10-13 10:52:26,212 - INFO - 127.0.0.1 - - [13/Oct/2025 10:52:26] "GET /result/n144ZIN1UIDga6KKZ5Lb HTTP/1.1" 200 -
+2025-10-13 10:52:26,412 - INFO - 127.0.0.1 - - [13/Oct/2025 10:52:26] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 10:55:03,992 - INFO - 127.0.0.1 - - [13/Oct/2025 10:55:03] "GET /result/n144ZIN1UIDga6KKZ5Lb HTTP/1.1" 200 -
+2025-10-13 10:55:04,124 - INFO - 127.0.0.1 - - [13/Oct/2025 10:55:04] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 10:55:04,247 - INFO - 127.0.0.1 - - [13/Oct/2025 10:55:04] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-13 10:55:09,095 - INFO - 127.0.0.1 - - [13/Oct/2025 10:55:09] "GET /history HTTP/1.1" 200 -
+2025-10-13 10:55:09,214 - INFO - 127.0.0.1 - - [13/Oct/2025 10:55:09] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 10:55:14,605 - INFO - 127.0.0.1 - - [13/Oct/2025 10:55:14] "GET /index HTTP/1.1" 200 -
+2025-10-13 10:55:14,738 - INFO - 127.0.0.1 - - [13/Oct/2025 10:55:14] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 10:57:42,352 - INFO - 127.0.0.1 - - [13/Oct/2025 10:57:42] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-10-13 10:57:44,205 - INFO - 127.0.0.1 - - [13/Oct/2025 10:57:44] "GET /result/BIIwEhzJf0WSR48YOOgN HTTP/1.1" 200 -
+2025-10-13 10:57:44,533 - INFO - 127.0.0.1 - - [13/Oct/2025 10:57:44] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 11:04:34,068 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\main.py', reloading
+2025-10-13 11:04:54,766 - WARNING -  * Debugger is active!
+2025-10-13 11:04:54,774 - INFO -  * Debugger PIN: 118-908-646
+2025-10-13 11:04:55,793 - INFO - 127.0.0.1 - - [13/Oct/2025 11:04:55] "GET /index HTTP/1.1" 200 -
+2025-10-13 11:04:56,019 - INFO - 127.0.0.1 - - [13/Oct/2025 11:04:56] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 11:05:36,797 - INFO - 127.0.0.1 - - [13/Oct/2025 11:05:36] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-10-13 11:05:38,734 - INFO - 127.0.0.1 - - [13/Oct/2025 11:05:38] "GET /result/CoVfEZyYOhMM2YU97TQ4 HTTP/1.1" 200 -
+2025-10-13 11:05:38,903 - INFO - 127.0.0.1 - - [13/Oct/2025 11:05:38] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 12:29:03,842 - INFO - 127.0.0.1 - - [13/Oct/2025 12:29:03] "[32mGET /result/CoVfEZyYOhMM2YU97TQ4 HTTP/1.1[0m" 302 -
+2025-10-13 12:29:04,041 - INFO - 127.0.0.1 - - [13/Oct/2025 12:29:04] "GET / HTTP/1.1" 200 -
+2025-10-13 12:29:04,137 - INFO - 127.0.0.1 - - [13/Oct/2025 12:29:04] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 12:29:04,301 - INFO - 127.0.0.1 - - [13/Oct/2025 12:29:04] "[36mGET /static/login-bg.webp HTTP/1.1[0m" 304 -
+2025-10-13 12:29:04,521 - INFO - 127.0.0.1 - - [13/Oct/2025 12:29:04] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-13 12:29:08,826 - INFO - 127.0.0.1 - - [13/Oct/2025 12:29:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-10-13 12:29:08,857 - INFO - 127.0.0.1 - - [13/Oct/2025 12:29:08] "GET /index HTTP/1.1" 200 -
+2025-10-13 12:29:09,013 - INFO - 127.0.0.1 - - [13/Oct/2025 12:29:09] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 12:29:35,636 - INFO - 127.0.0.1 - - [13/Oct/2025 12:29:35] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-10-13 12:29:40,105 - INFO - 127.0.0.1 - - [13/Oct/2025 12:29:40] "GET /result/i6whS2J37VToXGgH1znS HTTP/1.1" 200 -
+2025-10-13 12:29:40,439 - INFO - 127.0.0.1 - - [13/Oct/2025 12:29:40] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 12:31:50,823 - INFO - 127.0.0.1 - - [13/Oct/2025 12:31:50] "GET /result/i6whS2J37VToXGgH1znS HTTP/1.1" 200 -
+2025-10-13 12:31:50,892 - INFO - 127.0.0.1 - - [13/Oct/2025 12:31:50] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 12:31:51,018 - INFO - 127.0.0.1 - - [13/Oct/2025 12:31:51] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-13 12:32:12,872 - INFO - 127.0.0.1 - - [13/Oct/2025 12:32:12] "GET /result/i6whS2J37VToXGgH1znS HTTP/1.1" 200 -
+2025-10-13 12:32:12,951 - INFO - 127.0.0.1 - - [13/Oct/2025 12:32:12] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 12:32:13,089 - INFO - 127.0.0.1 - - [13/Oct/2025 12:32:13] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-13 12:32:26,661 - INFO - 127.0.0.1 - - [13/Oct/2025 12:32:26] "GET /history HTTP/1.1" 200 -
+2025-10-13 12:32:26,900 - INFO - 127.0.0.1 - - [13/Oct/2025 12:32:26] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 12:32:35,100 - INFO - 127.0.0.1 - - [13/Oct/2025 12:32:35] "GET /index HTTP/1.1" 200 -
+2025-10-13 12:32:35,215 - INFO - 127.0.0.1 - - [13/Oct/2025 12:32:35] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 12:33:44,073 - INFO - 127.0.0.1 - - [13/Oct/2025 12:33:44] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-10-13 12:33:44,184 - INFO - 127.0.0.1 - - [13/Oct/2025 12:33:44] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-13 12:33:44,253 - INFO - 127.0.0.1 - - [13/Oct/2025 12:33:44] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-13 12:33:44,380 - INFO - 127.0.0.1 - - [13/Oct/2025 12:33:44] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=BcJZqS7Mx3VTeMKjNW0m HTTP/1.1" 200 -
+2025-10-13 12:40:23,291 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\main.py', reloading
+2025-10-13 12:40:35,865 - WARNING -  * Debugger is active!
+2025-10-13 12:40:35,875 - INFO -  * Debugger PIN: 118-908-646
+2025-10-13 12:40:50,968 - INFO - 127.0.0.1 - - [13/Oct/2025 12:40:50] "GET /history HTTP/1.1" 200 -
+2025-10-13 12:40:54,928 - INFO - 127.0.0.1 - - [13/Oct/2025 12:40:54] "GET /index HTTP/1.1" 200 -
+2025-10-13 12:40:55,298 - INFO - 127.0.0.1 - - [13/Oct/2025 12:40:55] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 12:41:21,336 - ERROR - \u274c User input error: Invalid entry for pH Level. Please enter a numeric value.
+2025-10-13 12:41:21,338 - INFO - 127.0.0.1 - - [13/Oct/2025 12:41:21] "POST /predict HTTP/1.1" 200 -
+2025-10-13 12:41:21,426 - INFO - 127.0.0.1 - - [13/Oct/2025 12:41:21] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 12:42:13,401 - ERROR - \u274c User input error: Invalid entry for Fat Content. Please enter a numeric value.
+2025-10-13 12:42:13,403 - INFO - 127.0.0.1 - - [13/Oct/2025 12:42:13] "POST /predict HTTP/1.1" 200 -
+2025-10-13 12:42:13,505 - INFO - 127.0.0.1 - - [13/Oct/2025 12:42:13] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 12:50:32,944 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\main.py', reloading
+2025-10-13 12:50:39,614 - WARNING -  * Debugger is active!
+2025-10-13 12:50:39,652 - INFO -  * Debugger PIN: 118-908-646
+2025-10-13 12:51:53,612 - ERROR - \u274c User input error: Invalid entry for Fat Content. Please enter a numeric value.
+2025-10-13 12:51:53,694 - INFO - 127.0.0.1 - - [13/Oct/2025 12:51:53] "POST /predict HTTP/1.1" 200 -
+2025-10-13 12:51:53,913 - INFO - 127.0.0.1 - - [13/Oct/2025 12:51:53] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 12:51:53,969 - INFO - 127.0.0.1 - - [13/Oct/2025 12:51:53] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-13 12:51:57,687 - ERROR - \u274c User input error: Invalid entry for Fat Content. Please enter a numeric value.
+2025-10-13 12:51:57,688 - INFO - 127.0.0.1 - - [13/Oct/2025 12:51:57] "POST /predict HTTP/1.1" 200 -
+2025-10-13 12:51:57,747 - INFO - 127.0.0.1 - - [13/Oct/2025 12:51:57] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 12:51:57,840 - INFO - 127.0.0.1 - - [13/Oct/2025 12:51:57] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-13 12:52:20,577 - INFO - 127.0.0.1 - - [13/Oct/2025 12:52:20] "GET /index HTTP/1.1" 200 -
+2025-10-13 12:52:20,676 - INFO - 127.0.0.1 - - [13/Oct/2025 12:52:20] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 12:52:43,565 - ERROR - \u274c User input error: Invalid entry for Total Plate Count. Please enter a numeric value.
+2025-10-13 12:52:43,567 - INFO - 127.0.0.1 - - [13/Oct/2025 12:52:43] "POST /predict HTTP/1.1" 200 -
+2025-10-13 12:52:43,678 - INFO - 127.0.0.1 - - [13/Oct/2025 12:52:43] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 12:53:18,711 - ERROR - \u274c User input error: Invalid entry for SNF. Please enter a numeric value.
+2025-10-13 12:53:18,713 - INFO - 127.0.0.1 - - [13/Oct/2025 12:53:18] "POST /predict HTTP/1.1" 200 -
+2025-10-13 12:53:18,808 - INFO - 127.0.0.1 - - [13/Oct/2025 12:53:18] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 13:13:15,615 - INFO - 127.0.0.1 - - [13/Oct/2025 13:13:15] "GET /index HTTP/1.1" 200 -
+2025-10-13 13:13:16,711 - INFO - 127.0.0.1 - - [13/Oct/2025 13:13:16] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 13:13:19,216 - INFO - 127.0.0.1 - - [13/Oct/2025 13:13:19] "GET /index HTTP/1.1" 200 -
+2025-10-13 13:13:19,323 - INFO - 127.0.0.1 - - [13/Oct/2025 13:13:19] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 13:15:14,638 - INFO - 127.0.0.1 - - [13/Oct/2025 13:15:14] "GET /index HTTP/1.1" 200 -
+2025-10-13 13:15:14,716 - INFO - 127.0.0.1 - - [13/Oct/2025 13:15:14] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 13:15:15,229 - INFO - 127.0.0.1 - - [13/Oct/2025 13:15:15] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-13 13:16:37,416 - INFO - 127.0.0.1 - - [13/Oct/2025 13:16:37] "GET /index HTTP/1.1" 200 -
+2025-10-13 13:16:37,503 - INFO - 127.0.0.1 - - [13/Oct/2025 13:16:37] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 13:17:04,927 - ERROR - \u274c User input error: Invalid entry for Somatic Cell Count. Please enter a numeric value.
+2025-10-13 13:17:04,929 - INFO - 127.0.0.1 - - [13/Oct/2025 13:17:04] "POST /predict HTTP/1.1" 200 -
+2025-10-13 13:17:05,029 - INFO - 127.0.0.1 - - [13/Oct/2025 13:17:05] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 13:19:12,187 - INFO - 127.0.0.1 - - [13/Oct/2025 13:19:12] "GET /index HTTP/1.1" 200 -
+2025-10-13 13:19:12,263 - INFO - 127.0.0.1 - - [13/Oct/2025 13:19:12] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 13:19:53,813 - INFO - 127.0.0.1 - - [13/Oct/2025 13:19:53] "GET /index HTTP/1.1" 200 -
+2025-10-13 13:19:53,909 - INFO - 127.0.0.1 - - [13/Oct/2025 13:19:53] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 13:19:53,984 - INFO - 127.0.0.1 - - [13/Oct/2025 13:19:53] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-13 13:21:34,766 - INFO - 127.0.0.1 - - [13/Oct/2025 13:21:34] "GET /index HTTP/1.1" 200 -
+2025-10-13 13:21:34,840 - INFO - 127.0.0.1 - - [13/Oct/2025 13:21:34] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 13:21:34,900 - INFO - 127.0.0.1 - - [13/Oct/2025 13:21:34] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-13 13:22:10,253 - INFO - 127.0.0.1 - - [13/Oct/2025 13:22:10] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-10-13 13:22:12,653 - INFO - 127.0.0.1 - - [13/Oct/2025 13:22:12] "GET /result/He3jXj3WQyx1iRv3k93q HTTP/1.1" 200 -
+2025-10-13 13:22:12,801 - INFO - 127.0.0.1 - - [13/Oct/2025 13:22:12] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 13:22:27,335 - INFO - 127.0.0.1 - - [13/Oct/2025 13:22:27] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 13:36:57,269 - INFO - 127.0.0.1 - - [13/Oct/2025 13:36:57] "GET /history HTTP/1.1" 200 -
+2025-10-13 13:36:58,075 - INFO - 127.0.0.1 - - [13/Oct/2025 13:36:58] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 13:38:37,377 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\main.py', reloading
+2025-10-13 13:39:11,243 - WARNING -  * Debugger is active!
+2025-10-13 13:39:11,248 - INFO -  * Debugger PIN: 118-908-646
+2025-10-13 13:39:11,440 - INFO - 127.0.0.1 - - [13/Oct/2025 13:39:11] "GET /index HTTP/1.1" 200 -
+2025-10-13 13:39:12,728 - INFO - 127.0.0.1 - - [13/Oct/2025 13:39:12] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 13:39:12,760 - INFO - 127.0.0.1 - - [13/Oct/2025 13:39:12] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-13 13:39:15,347 - INFO - 127.0.0.1 - - [13/Oct/2025 13:39:15] "GET /history HTTP/1.1" 200 -
+2025-10-13 13:39:28,205 - INFO - 127.0.0.1 - - [13/Oct/2025 13:39:28] "GET /history HTTP/1.1" 200 -
+2025-10-13 13:39:29,103 - INFO - 127.0.0.1 - - [13/Oct/2025 13:39:29] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 13:39:54,992 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\main.py', reloading
+2025-10-13 13:40:01,866 - WARNING -  * Debugger is active!
+2025-10-13 13:40:01,870 - INFO -  * Debugger PIN: 118-908-646
+2025-10-13 13:40:09,070 - INFO - 127.0.0.1 - - [13/Oct/2025 13:40:09] "GET /history HTTP/1.1" 200 -
+2025-10-13 13:40:09,262 - INFO - 127.0.0.1 - - [13/Oct/2025 13:40:09] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 13:40:09,366 - INFO - 127.0.0.1 - - [13/Oct/2025 13:40:09] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-13 13:40:21,427 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\main.py', reloading
+2025-10-13 13:40:28,305 - WARNING -  * Debugger is active!
+2025-10-13 13:40:28,309 - INFO -  * Debugger PIN: 118-908-646
+2025-10-13 13:40:31,149 - INFO - 127.0.0.1 - - [13/Oct/2025 13:40:31] "GET /history HTTP/1.1" 200 -
+2025-10-13 13:40:31,349 - INFO - 127.0.0.1 - - [13/Oct/2025 13:40:31] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 13:40:31,428 - INFO - 127.0.0.1 - - [13/Oct/2025 13:40:31] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-13 13:42:45,743 - INFO - 127.0.0.1 - - [13/Oct/2025 13:42:45] "GET /history HTTP/1.1" 200 -
+2025-10-13 13:42:45,802 - INFO - 127.0.0.1 - - [13/Oct/2025 13:42:45] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 13:42:46,021 - INFO - 127.0.0.1 - - [13/Oct/2025 13:42:46] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-13 13:45:31,740 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\main.py', reloading
+2025-10-13 13:45:38,261 - WARNING -  * Debugger is active!
+2025-10-13 13:45:38,265 - INFO -  * Debugger PIN: 118-908-646
+2025-10-13 13:45:41,359 - INFO - 127.0.0.1 - - [13/Oct/2025 13:45:41] "GET /history HTTP/1.1" 200 -
+2025-10-13 13:45:41,549 - INFO - 127.0.0.1 - - [13/Oct/2025 13:45:41] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 13:45:41,621 - INFO - 127.0.0.1 - - [13/Oct/2025 13:45:41] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-13 13:53:41,880 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\main.py', reloading
+2025-10-13 13:53:48,462 - WARNING -  * Debugger is active!
+2025-10-13 13:53:48,466 - INFO -  * Debugger PIN: 118-908-646
+2025-10-13 13:55:56,533 - INFO - 127.0.0.1 - - [13/Oct/2025 13:55:56] "GET /history HTTP/1.1" 200 -
+2025-10-13 13:55:56,727 - INFO - 127.0.0.1 - - [13/Oct/2025 13:55:56] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 13:55:57,090 - INFO - 127.0.0.1 - - [13/Oct/2025 13:55:57] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-13 13:57:22,351 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\main.py', reloading
+2025-10-13 13:57:29,021 - WARNING -  * Debugger is active!
+2025-10-13 13:57:29,026 - INFO -  * Debugger PIN: 118-908-646
+2025-10-13 13:57:31,897 - INFO - 127.0.0.1 - - [13/Oct/2025 13:57:31] "GET /history HTTP/1.1" 200 -
+2025-10-13 13:57:32,080 - INFO - 127.0.0.1 - - [13/Oct/2025 13:57:32] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 13:57:32,292 - INFO - 127.0.0.1 - - [13/Oct/2025 13:57:32] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-13 13:57:46,639 - INFO - 127.0.0.1 - - [13/Oct/2025 13:57:46] "GET /index HTTP/1.1" 200 -
+2025-10-13 13:57:46,770 - INFO - 127.0.0.1 - - [13/Oct/2025 13:57:46] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 13:58:20,351 - INFO - 127.0.0.1 - - [13/Oct/2025 13:58:20] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-10-13 13:58:22,526 - INFO - 127.0.0.1 - - [13/Oct/2025 13:58:22] "GET /result/6PlmfOJENaFgOLeW4WCx HTTP/1.1" 200 -
+2025-10-13 13:58:22,616 - INFO - 127.0.0.1 - - [13/Oct/2025 13:58:22] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 13:58:41,249 - INFO - 127.0.0.1 - - [13/Oct/2025 13:58:41] "GET /history HTTP/1.1" 200 -
+2025-10-13 13:58:42,669 - INFO - 127.0.0.1 - - [13/Oct/2025 13:58:42] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 14:05:23,377 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\main.py', reloading
+2025-10-13 14:05:34,861 - WARNING -  * Debugger is active!
+2025-10-13 14:05:34,870 - INFO -  * Debugger PIN: 118-908-646
+2025-10-13 14:05:39,156 - INFO - 127.0.0.1 - - [13/Oct/2025 14:05:39] "GET /history HTTP/1.1" 200 -
+2025-10-13 14:05:39,403 - INFO - 127.0.0.1 - - [13/Oct/2025 14:05:39] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 14:05:39,531 - INFO - 127.0.0.1 - - [13/Oct/2025 14:05:39] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-13 14:07:24,314 - INFO - 127.0.0.1 - - [13/Oct/2025 14:07:24] "GET /result/6PlmfOJENaFgOLeW4WCx HTTP/1.1" 200 -
+2025-10-13 14:07:24,397 - INFO - 127.0.0.1 - - [13/Oct/2025 14:07:24] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-13 14:07:24,803 - INFO - 127.0.0.1 - - [13/Oct/2025 14:07:24] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-14 09:09:06,958 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-14 09:09:06,960 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-14 09:09:06,964 - INFO -  * Restarting with stat
+2025-10-14 09:09:17,747 - WARNING -  * Debugger is active!
+2025-10-14 09:09:18,310 - INFO -  * Debugger PIN: 316-340-985
+2025-10-14 09:10:24,847 - INFO - 127.0.0.1 - - [14/Oct/2025 09:10:24] "GET / HTTP/1.1" 200 -
+2025-10-14 09:10:25,399 - INFO - 127.0.0.1 - - [14/Oct/2025 09:10:25] "GET /static/favicon_white.png HTTP/1.1" 200 -
+2025-10-14 09:10:25,532 - INFO - 127.0.0.1 - - [14/Oct/2025 09:10:25] "GET /static/login-bg.webp HTTP/1.1" 200 -
+2025-10-14 09:10:40,092 - INFO - 127.0.0.1 - - [14/Oct/2025 09:10:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-10-14 09:10:40,203 - INFO - 127.0.0.1 - - [14/Oct/2025 09:10:40] "GET /index HTTP/1.1" 200 -
+2025-10-14 09:10:40,425 - INFO - 127.0.0.1 - - [14/Oct/2025 09:10:40] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-14 09:16:45,323 - INFO - 127.0.0.1 - - [14/Oct/2025 09:16:45] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-10-14 09:16:47,684 - INFO - 127.0.0.1 - - [14/Oct/2025 09:16:47] "GET /result/5QoOodvw3GbfIZqBR6Gx HTTP/1.1" 200 -
+2025-10-14 09:16:47,845 - INFO - 127.0.0.1 - - [14/Oct/2025 09:16:47] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-14 09:19:39,900 - INFO - 127.0.0.1 - - [14/Oct/2025 09:19:39] "GET /index HTTP/1.1" 200 -
+2025-10-14 09:19:39,995 - INFO - 127.0.0.1 - - [14/Oct/2025 09:19:39] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-14 09:42:11,904 - INFO - 127.0.0.1 - - [14/Oct/2025 09:42:11] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-10-14 09:42:14,245 - INFO - 127.0.0.1 - - [14/Oct/2025 09:42:14] "GET /result/T1fkOBUXLjLRUp6N1Kr5 HTTP/1.1" 200 -
+2025-10-14 09:42:14,591 - INFO - 127.0.0.1 - - [14/Oct/2025 09:42:14] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-14 09:43:32,823 - INFO - 127.0.0.1 - - [14/Oct/2025 09:43:32] "GET /index HTTP/1.1" 200 -
+2025-10-14 09:43:33,046 - INFO - 127.0.0.1 - - [14/Oct/2025 09:43:33] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-14 09:45:48,405 - INFO - 127.0.0.1 - - [14/Oct/2025 09:45:48] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-10-14 09:45:51,372 - INFO - 127.0.0.1 - - [14/Oct/2025 09:45:51] "GET /result/kMeyDV5iOTcu9DcK4pvr HTTP/1.1" 200 -
+2025-10-14 09:45:51,665 - INFO - 127.0.0.1 - - [14/Oct/2025 09:45:51] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-14 09:45:58,695 - INFO - 127.0.0.1 - - [14/Oct/2025 09:45:58] "GET /index HTTP/1.1" 200 -
+2025-10-14 09:45:58,851 - INFO - 127.0.0.1 - - [14/Oct/2025 09:45:58] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-14 09:48:55,184 - INFO - 127.0.0.1 - - [14/Oct/2025 09:48:55] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-10-14 09:49:00,826 - INFO - 127.0.0.1 - - [14/Oct/2025 09:49:00] "GET /result/3z9LmqVG0Lo8wq350kbR HTTP/1.1" 200 -
+2025-10-14 09:49:01,038 - INFO - 127.0.0.1 - - [14/Oct/2025 09:49:01] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-14 09:49:30,039 - INFO - 127.0.0.1 - - [14/Oct/2025 09:49:30] "GET /history HTTP/1.1" 200 -
+2025-10-14 09:49:36,367 - INFO - 127.0.0.1 - - [14/Oct/2025 09:49:36] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-14 09:59:30,397 - INFO - 127.0.0.1 - - [14/Oct/2025 09:59:30] "GET /history HTTP/1.1" 200 -
+2025-10-14 09:59:31,685 - INFO - 127.0.0.1 - - [14/Oct/2025 09:59:31] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-14 09:59:32,957 - INFO - 127.0.0.1 - - [14/Oct/2025 09:59:32] "GET /static/favicon.png HTTP/1.1" 200 -
+2025-10-14 09:59:43,410 - INFO - 127.0.0.1 - - [14/Oct/2025 09:59:43] "GET /history HTTP/1.1" 200 -
+2025-10-14 09:59:43,530 - INFO - 127.0.0.1 - - [14/Oct/2025 09:59:43] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-14 09:59:43,925 - INFO - 127.0.0.1 - - [14/Oct/2025 09:59:43] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-14 10:00:18,198 - INFO - 127.0.0.1 - - [14/Oct/2025 10:00:18] "GET /index HTTP/1.1" 200 -
+2025-10-14 10:00:18,307 - INFO - 127.0.0.1 - - [14/Oct/2025 10:00:18] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-14 10:02:57,872 - INFO - 127.0.0.1 - - [14/Oct/2025 10:02:57] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-10-14 10:03:02,738 - INFO - 127.0.0.1 - - [14/Oct/2025 10:03:02] "GET /result/SUGLQe9Ep2ScRzOgC21X HTTP/1.1" 200 -
+2025-10-14 10:03:03,323 - INFO - 127.0.0.1 - - [14/Oct/2025 10:03:03] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-14 10:03:25,147 - INFO - 127.0.0.1 - - [14/Oct/2025 10:03:25] "GET /history HTTP/1.1" 200 -
+2025-10-14 10:03:26,512 - INFO - 127.0.0.1 - - [14/Oct/2025 10:03:26] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-14 10:06:02,389 - INFO - 127.0.0.1 - - [14/Oct/2025 10:06:02] "GET /index HTTP/1.1" 200 -
+2025-10-14 10:06:02,590 - INFO - 127.0.0.1 - - [14/Oct/2025 10:06:02] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-14 10:09:19,452 - INFO - 127.0.0.1 - - [14/Oct/2025 10:09:19] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-10-14 10:09:23,306 - INFO - 127.0.0.1 - - [14/Oct/2025 10:09:23] "GET /result/5Rfkb1PtifffzkXm63s7 HTTP/1.1" 200 -
+2025-10-14 10:09:23,593 - INFO - 127.0.0.1 - - [14/Oct/2025 10:09:23] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-14 10:09:43,424 - INFO - 127.0.0.1 - - [14/Oct/2025 10:09:43] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-14 10:10:36,096 - INFO - 127.0.0.1 - - [14/Oct/2025 10:10:36] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-10-14 10:10:36,145 - INFO - 127.0.0.1 - - [14/Oct/2025 10:10:36] "GET / HTTP/1.1" 200 -
+2025-10-14 10:10:36,286 - INFO - 127.0.0.1 - - [14/Oct/2025 10:10:36] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-14 10:10:36,517 - INFO - 127.0.0.1 - - [14/Oct/2025 10:10:36] "[36mGET /static/login-bg.webp HTTP/1.1[0m" 304 -
+2025-10-14 10:11:47,459 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\main.py', reloading
+2025-10-14 10:11:53,724 - INFO -  * Restarting with stat
+2025-10-14 11:22:10,282 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-14 11:22:10,284 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-14 11:22:10,288 - INFO -  * Restarting with stat
+2025-10-14 11:22:13,841 - WARNING -  * Debugger is active!
+2025-10-14 11:22:13,851 - INFO -  * Debugger PIN: 316-340-985
+2025-10-14 11:22:35,190 - INFO - 127.0.0.1 - - [14/Oct/2025 11:22:35] "GET / HTTP/1.1" 200 -
+2025-10-14 11:22:35,973 - INFO - 127.0.0.1 - - [14/Oct/2025 11:22:35] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-14 11:22:36,039 - INFO - 127.0.0.1 - - [14/Oct/2025 11:22:36] "[36mGET /static/login-bg.webp HTTP/1.1[0m" 304 -
+2025-10-14 11:22:38,834 - INFO - 127.0.0.1 - - [14/Oct/2025 11:22:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-10-14 11:22:39,371 - INFO - 127.0.0.1 - - [14/Oct/2025 11:22:39] "GET /index HTTP/1.1" 200 -
+2025-10-14 11:22:39,535 - INFO - 127.0.0.1 - - [14/Oct/2025 11:22:39] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-14 11:24:31,902 - INFO - 127.0.0.1 - - [14/Oct/2025 11:24:31] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-10-14 11:24:31,920 - INFO - 127.0.0.1 - - [14/Oct/2025 11:24:31] "GET / HTTP/1.1" 200 -
+2025-10-14 11:24:31,984 - INFO - 127.0.0.1 - - [14/Oct/2025 11:24:31] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-14 11:24:32,097 - INFO - 127.0.0.1 - - [14/Oct/2025 11:24:32] "[36mGET /static/login-bg.webp HTTP/1.1[0m" 304 -
+2025-10-14 11:37:02,438 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\main.py', reloading
+2025-10-14 11:37:03,026 - INFO -  * Restarting with stat
+2025-10-27 14:24:21,790 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-27 14:24:21,791 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-27 14:24:21,794 - INFO -  * Restarting with stat
+2025-10-27 14:24:28,138 - WARNING -  * Debugger is active!
+2025-10-27 14:24:28,156 - INFO -  * Debugger PIN: 316-340-985
+2025-10-27 14:36:44,209 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\main.py', reloading
+2025-10-27 14:36:44,707 - INFO -  * Restarting with stat
+2025-10-27 14:36:52,452 - WARNING -  * Debugger is active!
+2025-10-27 14:36:52,455 - INFO -  * Debugger PIN: 316-340-985
+2025-10-27 14:36:53,756 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\main.py', reloading
+2025-10-27 14:36:54,040 - INFO -  * Restarting with stat
+2025-10-27 14:36:59,174 - WARNING -  * Debugger is active!
+2025-10-27 14:36:59,177 - INFO -  * Debugger PIN: 316-340-985
+2025-10-27 14:39:00,969 - INFO - 127.0.0.1 - - [27/Oct/2025 14:39:00] "GET / HTTP/1.1" 200 -
+2025-10-27 14:39:02,230 - INFO - 127.0.0.1 - - [27/Oct/2025 14:39:02] "GET /static/favicon_white.png HTTP/1.1" 200 -
+2025-10-27 14:39:02,315 - INFO - 127.0.0.1 - - [27/Oct/2025 14:39:02] "GET /static/login-bg.webp HTTP/1.1" 200 -
+2025-10-27 14:39:02,677 - INFO - 127.0.0.1 - - [27/Oct/2025 14:39:02] "GET /static/favicon.png HTTP/1.1" 200 -
+2025-10-27 14:39:06,426 - INFO - 127.0.0.1 - - [27/Oct/2025 14:39:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-10-27 14:39:06,997 - INFO - 127.0.0.1 - - [27/Oct/2025 14:39:06] "GET /index HTTP/1.1" 200 -
+2025-10-27 14:39:07,091 - INFO - 127.0.0.1 - - [27/Oct/2025 14:39:07] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 14:42:27,732 - INFO - 127.0.0.1 - - [27/Oct/2025 14:42:27] "GET /index HTTP/1.1" 200 -
+2025-10-27 14:42:27,792 - INFO - 127.0.0.1 - - [27/Oct/2025 14:42:27] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 14:42:28,244 - INFO - 127.0.0.1 - - [27/Oct/2025 14:42:28] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-27 14:48:20,984 - INFO - 127.0.0.1 - - [27/Oct/2025 14:48:20] "GET /index HTTP/1.1" 200 -
+2025-10-27 14:48:21,061 - INFO - 127.0.0.1 - - [27/Oct/2025 14:48:21] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 14:48:21,348 - INFO - 127.0.0.1 - - [27/Oct/2025 14:48:21] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-27 14:54:28,671 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\main.py', reloading
+2025-10-27 14:54:29,208 - INFO -  * Restarting with stat
+2025-10-27 14:54:35,033 - WARNING -  * Debugger is active!
+2025-10-27 14:54:35,036 - INFO -  * Debugger PIN: 316-340-985
+2025-10-27 14:54:45,315 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\main.py', reloading
+2025-10-27 14:54:45,593 - INFO -  * Restarting with stat
+2025-10-27 14:54:49,542 - WARNING -  * Debugger is active!
+2025-10-27 14:54:49,545 - INFO -  * Debugger PIN: 316-340-985
+2025-10-27 14:55:23,081 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\main.py', reloading
+2025-10-27 14:55:23,365 - INFO -  * Restarting with stat
+2025-10-27 14:55:27,937 - WARNING -  * Debugger is active!
+2025-10-27 14:55:27,940 - INFO -  * Debugger PIN: 316-340-985
+2025-10-27 14:56:13,146 - INFO - 127.0.0.1 - - [27/Oct/2025 14:56:13] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-10-27 14:56:15,615 - INFO - 127.0.0.1 - - [27/Oct/2025 14:56:15] "GET /result/jWFfRKiu4RdA5TN9y0AT HTTP/1.1" 200 -
+2025-10-27 14:56:15,930 - INFO - 127.0.0.1 - - [27/Oct/2025 14:56:15] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 14:57:06,064 - INFO - 127.0.0.1 - - [27/Oct/2025 14:57:06] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 14:58:40,545 - INFO - 127.0.0.1 - - [27/Oct/2025 14:58:40] "GET /history HTTP/1.1" 200 -
+2025-10-27 14:58:41,378 - INFO - 127.0.0.1 - - [27/Oct/2025 14:58:41] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 15:15:06,689 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\main.py', reloading
+2025-10-27 15:15:10,966 - INFO -  * Restarting with stat
+2025-10-27 15:15:18,357 - WARNING -  * Debugger is active!
+2025-10-27 15:15:18,363 - INFO -  * Debugger PIN: 316-340-985
+2025-10-27 15:15:22,985 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\main.py', reloading
+2025-10-27 15:15:23,995 - INFO -  * Restarting with stat
+2025-10-27 15:15:30,706 - WARNING -  * Debugger is active!
+2025-10-27 15:15:30,711 - INFO -  * Debugger PIN: 316-340-985
+2025-10-27 15:15:37,623 - INFO - 127.0.0.1 - - [27/Oct/2025 15:15:37] "GET /history HTTP/1.1" 200 -
+2025-10-27 15:15:37,866 - INFO - 127.0.0.1 - - [27/Oct/2025 15:15:37] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 15:15:39,262 - INFO - 127.0.0.1 - - [27/Oct/2025 15:15:39] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-27 15:17:32,029 - INFO - 127.0.0.1 - - [27/Oct/2025 15:17:32] "GET /history HTTP/1.1" 200 -
+2025-10-27 15:17:32,242 - INFO - 127.0.0.1 - - [27/Oct/2025 15:17:32] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 15:17:32,569 - INFO - 127.0.0.1 - - [27/Oct/2025 15:17:32] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-27 15:23:08,733 - INFO - 127.0.0.1 - - [27/Oct/2025 15:23:08] "GET /history HTTP/1.1" 200 -
+2025-10-27 15:23:08,797 - INFO - 127.0.0.1 - - [27/Oct/2025 15:23:08] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 15:23:09,550 - INFO - 127.0.0.1 - - [27/Oct/2025 15:23:09] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-27 15:34:42,904 - INFO - 127.0.0.1 - - [27/Oct/2025 15:34:42] "GET /index HTTP/1.1" 200 -
+2025-10-27 15:34:44,055 - INFO - 127.0.0.1 - - [27/Oct/2025 15:34:44] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 15:41:49,366 - INFO - 127.0.0.1 - - [27/Oct/2025 15:41:49] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-10-27 15:41:51,354 - INFO - 127.0.0.1 - - [27/Oct/2025 15:41:51] "GET /result/pwJzQuWEsQVEW0jlz6D2 HTTP/1.1" 200 -
+2025-10-27 15:41:51,574 - INFO - 127.0.0.1 - - [27/Oct/2025 15:41:51] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 15:42:04,286 - INFO - 127.0.0.1 - - [27/Oct/2025 15:42:04] "GET /history HTTP/1.1" 200 -
+2025-10-27 15:42:04,396 - INFO - 127.0.0.1 - - [27/Oct/2025 15:42:04] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 15:42:05,299 - INFO - 127.0.0.1 - - [27/Oct/2025 15:42:05] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-27 15:47:57,441 - INFO - 127.0.0.1 - - [27/Oct/2025 15:47:57] "GET /history HTTP/1.1" 200 -
+2025-10-27 15:47:57,509 - INFO - 127.0.0.1 - - [27/Oct/2025 15:47:57] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 15:47:59,136 - INFO - 127.0.0.1 - - [27/Oct/2025 15:47:59] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-27 15:49:31,530 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\main.py', reloading
+2025-10-27 15:49:37,858 - INFO -  * Restarting with stat
+2025-10-27 15:49:46,653 - WARNING -  * Debugger is active!
+2025-10-27 15:49:46,668 - INFO -  * Debugger PIN: 316-340-985
+2025-10-27 15:49:52,019 - INFO - 127.0.0.1 - - [27/Oct/2025 15:49:52] "GET /history HTTP/1.1" 200 -
+2025-10-27 15:49:52,428 - INFO - 127.0.0.1 - - [27/Oct/2025 15:49:52] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 15:49:52,641 - INFO - 127.0.0.1 - - [27/Oct/2025 15:49:52] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-27 15:51:08,800 - INFO - 127.0.0.1 - - [27/Oct/2025 15:51:08] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-27 16:17:09,971 - INFO - 127.0.0.1 - - [27/Oct/2025 16:17:09] "GET /history HTTP/1.1" 200 -
+2025-10-27 16:17:10,058 - INFO - 127.0.0.1 - - [27/Oct/2025 16:17:10] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 16:17:11,937 - INFO - 127.0.0.1 - - [27/Oct/2025 16:17:11] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-27 16:24:00,325 - INFO - 127.0.0.1 - - [27/Oct/2025 16:24:00] "GET /history HTTP/1.1" 200 -
+2025-10-27 16:24:00,465 - INFO - 127.0.0.1 - - [27/Oct/2025 16:24:00] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 16:24:01,170 - INFO - 127.0.0.1 - - [27/Oct/2025 16:24:01] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-27 16:26:48,910 - INFO - 127.0.0.1 - - [27/Oct/2025 16:26:48] "GET /index HTTP/1.1" 200 -
+2025-10-27 16:26:49,001 - INFO - 127.0.0.1 - - [27/Oct/2025 16:26:49] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 16:29:13,479 - INFO - 127.0.0.1 - - [27/Oct/2025 16:29:13] "GET /index HTTP/1.1" 200 -
+2025-10-27 16:29:13,559 - INFO - 127.0.0.1 - - [27/Oct/2025 16:29:13] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 16:29:13,662 - INFO - 127.0.0.1 - - [27/Oct/2025 16:29:13] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-27 16:32:04,625 - INFO - 127.0.0.1 - - [27/Oct/2025 16:32:04] "GET /index HTTP/1.1" 200 -
+2025-10-27 16:32:04,687 - INFO - 127.0.0.1 - - [27/Oct/2025 16:32:04] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 16:32:04,867 - INFO - 127.0.0.1 - - [27/Oct/2025 16:32:04] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-27 16:33:29,793 - INFO - 127.0.0.1 - - [27/Oct/2025 16:33:29] "GET /index HTTP/1.1" 200 -
+2025-10-27 16:33:29,846 - INFO - 127.0.0.1 - - [27/Oct/2025 16:33:29] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 16:33:29,977 - INFO - 127.0.0.1 - - [27/Oct/2025 16:33:29] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-27 16:33:59,725 - INFO - 127.0.0.1 - - [27/Oct/2025 16:33:59] "GET /index HTTP/1.1" 200 -
+2025-10-27 16:33:59,903 - INFO - 127.0.0.1 - - [27/Oct/2025 16:33:59] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 16:33:59,955 - INFO - 127.0.0.1 - - [27/Oct/2025 16:33:59] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-27 16:41:07,081 - INFO - 127.0.0.1 - - [27/Oct/2025 16:41:07] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-10-27 16:41:09,307 - INFO - 127.0.0.1 - - [27/Oct/2025 16:41:09] "GET /result/niMDNperBn7Ja27fRuuB HTTP/1.1" 200 -
+2025-10-27 16:41:09,446 - INFO - 127.0.0.1 - - [27/Oct/2025 16:41:09] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 16:41:23,269 - INFO - 127.0.0.1 - - [27/Oct/2025 16:41:23] "GET /history HTTP/1.1" 200 -
+2025-10-27 16:41:23,939 - INFO - 127.0.0.1 - - [27/Oct/2025 16:41:23] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 16:41:24,769 - INFO - 127.0.0.1 - - [27/Oct/2025 16:41:24] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-27 16:45:59,826 - INFO - 127.0.0.1 - - [27/Oct/2025 16:45:59] "GET /index HTTP/1.1" 200 -
+2025-10-27 16:45:59,936 - INFO - 127.0.0.1 - - [27/Oct/2025 16:45:59] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 19:38:23,969 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-27 19:38:23,971 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-27 19:38:23,975 - INFO -  * Restarting with stat
+2025-10-27 19:38:30,117 - WARNING -  * Debugger is active!
+2025-10-27 19:38:30,149 - INFO -  * Debugger PIN: 316-340-985
+2025-10-27 19:38:53,892 - INFO - 127.0.0.1 - - [27/Oct/2025 19:38:53] "GET / HTTP/1.1" 200 -
+2025-10-27 19:38:55,134 - INFO - 127.0.0.1 - - [27/Oct/2025 19:38:55] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 19:38:55,147 - INFO - 127.0.0.1 - - [27/Oct/2025 19:38:55] "[36mGET /static/login-bg.webp HTTP/1.1[0m" 304 -
+2025-10-27 19:39:19,178 - INFO - 127.0.0.1 - - [27/Oct/2025 19:39:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-10-27 19:39:19,418 - INFO - 127.0.0.1 - - [27/Oct/2025 19:39:19] "GET /index HTTP/1.1" 200 -
+2025-10-27 19:39:19,572 - INFO - 127.0.0.1 - - [27/Oct/2025 19:39:19] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 19:42:32,634 - INFO - 127.0.0.1 - - [27/Oct/2025 19:42:32] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-10-27 19:42:35,216 - INFO - 127.0.0.1 - - [27/Oct/2025 19:42:35] "GET /result/LgDlBenrmSZ6fLciRw8j HTTP/1.1" 200 -
+2025-10-27 19:42:35,902 - INFO - 127.0.0.1 - - [27/Oct/2025 19:42:35] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 19:42:56,718 - INFO - 127.0.0.1 - - [27/Oct/2025 19:42:56] "GET /history HTTP/1.1" 200 -
+2025-10-27 19:42:58,019 - INFO - 127.0.0.1 - - [27/Oct/2025 19:42:58] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 19:46:54,624 - INFO - 127.0.0.1 - - [27/Oct/2025 19:46:54] "GET /index HTTP/1.1" 200 -
+2025-10-27 19:46:55,172 - INFO - 127.0.0.1 - - [27/Oct/2025 19:46:55] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 19:53:56,290 - INFO - 127.0.0.1 - - [27/Oct/2025 19:53:56] "GET /history HTTP/1.1" 200 -
+2025-10-27 19:53:57,257 - INFO - 127.0.0.1 - - [27/Oct/2025 19:53:57] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-27 19:53:57,958 - INFO - 127.0.0.1 - - [27/Oct/2025 19:53:57] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-27 19:55:31,120 - INFO - 127.0.0.1 - - [27/Oct/2025 19:55:31] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-29 18:46:29,466 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-29 18:46:29,467 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-29 18:46:29,471 - INFO -  * Restarting with stat
+2025-10-29 18:46:39,894 - WARNING -  * Debugger is active!
+2025-10-29 18:46:39,912 - INFO -  * Debugger PIN: 118-908-646
+2025-10-29 18:46:41,035 - INFO - 127.0.0.1 - - [29/Oct/2025 18:46:41] "GET / HTTP/1.1" 200 -
+2025-10-29 18:46:43,224 - INFO - 127.0.0.1 - - [29/Oct/2025 18:46:43] "GET /static/favicon_white.png HTTP/1.1" 200 -
+2025-10-29 18:46:43,241 - INFO - 127.0.0.1 - - [29/Oct/2025 18:46:43] "GET /static/login-bg.webp HTTP/1.1" 200 -
+2025-10-29 18:47:35,883 - INFO - 127.0.0.1 - - [29/Oct/2025 18:47:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-10-29 18:47:35,947 - INFO - 127.0.0.1 - - [29/Oct/2025 18:47:35] "GET /index HTTP/1.1" 200 -
+2025-10-29 18:47:36,305 - INFO - 127.0.0.1 - - [29/Oct/2025 18:47:36] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-29 18:49:09,302 - INFO - 127.0.0.1 - - [29/Oct/2025 18:49:09] "GET /history HTTP/1.1" 200 -
+2025-10-29 18:49:10,772 - INFO - 127.0.0.1 - - [29/Oct/2025 18:49:10] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-29 18:51:10,577 - INFO - 127.0.0.1 - - [29/Oct/2025 18:51:10] "GET /static/favicon.png HTTP/1.1" 200 -
+2025-10-29 18:59:18,291 - INFO - 127.0.0.1 - - [29/Oct/2025 18:59:18] "GET /index HTTP/1.1" 200 -
+2025-10-29 18:59:18,502 - INFO - 127.0.0.1 - - [29/Oct/2025 18:59:18] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-29 18:59:18,932 - INFO - 127.0.0.1 - - [29/Oct/2025 18:59:18] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-29 19:03:20,854 - INFO - 127.0.0.1 - - [29/Oct/2025 19:03:20] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-10-29 19:03:22,621 - INFO - 127.0.0.1 - - [29/Oct/2025 19:03:22] "GET /result/UC47KH1XbHUNLMZfWOIU HTTP/1.1" 200 -
+2025-10-29 19:03:22,953 - INFO - 127.0.0.1 - - [29/Oct/2025 19:03:22] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-29 19:05:05,280 - INFO - 127.0.0.1 - - [29/Oct/2025 19:05:05] "GET /result/UC47KH1XbHUNLMZfWOIU HTTP/1.1" 200 -
+2025-10-29 19:05:05,640 - INFO - 127.0.0.1 - - [29/Oct/2025 19:05:05] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-29 19:05:05,863 - INFO - 127.0.0.1 - - [29/Oct/2025 19:05:05] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-29 19:06:01,986 - INFO - 127.0.0.1 - - [29/Oct/2025 19:06:01] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-29 19:07:04,494 - INFO - 127.0.0.1 - - [29/Oct/2025 19:07:04] "GET /history HTTP/1.1" 200 -
+2025-10-29 19:07:05,147 - INFO - 127.0.0.1 - - [29/Oct/2025 19:07:05] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-29 19:07:06,474 - INFO - 127.0.0.1 - - [29/Oct/2025 19:07:06] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-29 19:11:13,091 - INFO - 127.0.0.1 - - [29/Oct/2025 19:11:13] "GET /history HTTP/1.1" 200 -
+2025-10-29 19:11:13,182 - INFO - 127.0.0.1 - - [29/Oct/2025 19:11:13] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-29 19:11:14,733 - INFO - 127.0.0.1 - - [29/Oct/2025 19:11:14] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-29 19:13:10,997 - INFO - 127.0.0.1 - - [29/Oct/2025 19:13:10] "GET /index HTTP/1.1" 200 -
+2025-10-29 19:13:11,321 - INFO - 127.0.0.1 - - [29/Oct/2025 19:13:11] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-29 19:32:30,476 - INFO - 127.0.0.1 - - [29/Oct/2025 19:32:30] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-10-29 19:32:32,740 - INFO - 127.0.0.1 - - [29/Oct/2025 19:32:32] "GET /result/XBK1OnVIlo2czC3PwnFl HTTP/1.1" 200 -
+2025-10-29 19:32:32,922 - INFO - 127.0.0.1 - - [29/Oct/2025 19:32:32] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-29 19:34:21,473 - INFO - 127.0.0.1 - - [29/Oct/2025 19:34:21] "GET /index HTTP/1.1" 200 -
+2025-10-29 19:34:21,697 - INFO - 127.0.0.1 - - [29/Oct/2025 19:34:21] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-29 19:38:08,303 - INFO - 127.0.0.1 - - [29/Oct/2025 19:38:08] "GET /index HTTP/1.1" 200 -
+2025-10-29 19:38:08,384 - INFO - 127.0.0.1 - - [29/Oct/2025 19:38:08] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-29 19:38:08,562 - INFO - 127.0.0.1 - - [29/Oct/2025 19:38:08] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-10-29 19:41:02,013 - INFO - 127.0.0.1 - - [29/Oct/2025 19:41:02] "GET /index HTTP/1.1" 200 -
+2025-10-29 19:41:02,088 - INFO - 127.0.0.1 - - [29/Oct/2025 19:41:02] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-10-29 19:41:02,209 - INFO - 127.0.0.1 - - [29/Oct/2025 19:41:02] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-11-05 10:17:41,576 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-05 10:17:41,577 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-05 10:17:41,581 - INFO -  * Restarting with stat
+2025-11-05 10:17:45,010 - WARNING -  * Debugger is active!
+2025-11-05 10:17:45,329 - INFO -  * Debugger PIN: 316-340-985
+2025-11-05 10:18:06,678 - INFO - 127.0.0.1 - - [05/Nov/2025 10:18:06] "GET /debug/firebase HTTP/1.1" 200 -
+2025-11-05 10:18:07,356 - INFO - 127.0.0.1 - - [05/Nov/2025 10:18:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-05 10:19:52,776 - INFO - 127.0.0.1 - - [05/Nov/2025 10:19:52] "GET / HTTP/1.1" 200 -
+2025-11-05 10:19:53,466 - INFO - 127.0.0.1 - - [05/Nov/2025 10:19:53] "GET /static/favicon_white.png HTTP/1.1" 200 -
+2025-11-05 10:19:53,855 - INFO - 127.0.0.1 - - [05/Nov/2025 10:19:53] "GET /static/login-bg.webp HTTP/1.1" 200 -
+2025-11-05 10:19:54,571 - INFO - 127.0.0.1 - - [05/Nov/2025 10:19:54] "GET /static/favicon.png HTTP/1.1" 200 -
+2025-11-05 10:19:58,356 - INFO - 127.0.0.1 - - [05/Nov/2025 10:19:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-05 10:19:58,405 - INFO - 127.0.0.1 - - [05/Nov/2025 10:19:58] "GET /index HTTP/1.1" 200 -
+2025-11-05 10:19:58,511 - INFO - 127.0.0.1 - - [05/Nov/2025 10:19:58] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-11-05 10:20:46,128 - INFO - 127.0.0.1 - - [05/Nov/2025 10:20:46] "GET / HTTP/1.1" 200 -
+2025-11-05 10:20:46,196 - INFO - 127.0.0.1 - - [05/Nov/2025 10:20:46] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-11-05 10:20:46,267 - INFO - 127.0.0.1 - - [05/Nov/2025 10:20:46] "[36mGET /static/login-bg.webp HTTP/1.1[0m" 304 -
+2025-11-05 10:20:50,664 - INFO - 127.0.0.1 - - [05/Nov/2025 10:20:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-05 10:20:50,685 - INFO - 127.0.0.1 - - [05/Nov/2025 10:20:50] "GET /index HTTP/1.1" 200 -
+2025-11-05 10:20:50,784 - INFO - 127.0.0.1 - - [05/Nov/2025 10:20:50] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-11-05 10:24:16,302 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-05 10:24:16,303 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-05 10:24:16,308 - INFO -  * Restarting with stat
+2025-11-05 10:24:19,617 - WARNING -  * Debugger is active!
+2025-11-05 10:24:19,620 - INFO -  * Debugger PIN: 316-340-985
+2025-11-05 10:24:28,615 - INFO - 127.0.0.1 - - [05/Nov/2025 10:24:28] "GET /debug/firebase HTTP/1.1" 200 -
+2025-11-05 10:24:28,906 - INFO - 127.0.0.1 - - [05/Nov/2025 10:24:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-05 10:24:29,919 - INFO - 127.0.0.1 - - [05/Nov/2025 10:24:29] "GET /debug/firebase HTTP/1.1" 200 -
+2025-11-05 10:25:08,730 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-05 10:25:08,731 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-05 10:25:08,733 - INFO -  * Restarting with stat
+2025-11-05 10:25:11,986 - WARNING -  * Debugger is active!
+2025-11-05 10:25:11,990 - INFO -  * Debugger PIN: 316-340-985
+2025-11-05 10:25:16,987 - INFO - 127.0.0.1 - - [05/Nov/2025 10:25:16] "GET /debug/firebase HTTP/1.1" 200 -
+2025-11-05 10:33:22,912 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-05 10:33:22,912 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-05 10:33:22,914 - INFO -  * Restarting with stat
+2025-11-05 10:33:26,249 - WARNING -  * Debugger is active!
+2025-11-05 10:33:26,252 - INFO -  * Debugger PIN: 316-340-985
+2025-11-05 10:33:32,542 - INFO - 127.0.0.1 - - [05/Nov/2025 10:33:32] "GET /debug/firebase HTTP/1.1" 200 -
+2025-11-05 10:33:34,495 - INFO - 127.0.0.1 - - [05/Nov/2025 10:33:34] "GET /debug/firebase HTTP/1.1" 200 -
+2025-11-05 10:33:35,830 - INFO - 127.0.0.1 - - [05/Nov/2025 10:33:35] "GET /debug/firebase HTTP/1.1" 200 -
+2025-11-05 10:33:36,131 - INFO - 127.0.0.1 - - [05/Nov/2025 10:33:36] "GET /debug/firebase HTTP/1.1" 200 -
+2025-11-05 10:33:36,383 - INFO - 127.0.0.1 - - [05/Nov/2025 10:33:36] "GET /debug/firebase HTTP/1.1" 200 -
+2025-11-05 10:33:37,127 - INFO - 127.0.0.1 - - [05/Nov/2025 10:33:37] "GET /debug/firebase HTTP/1.1" 200 -
+2025-11-05 10:34:23,186 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\main.py', reloading
+2025-11-05 10:34:23,550 - INFO -  * Restarting with stat
+2025-11-05 10:34:26,927 - WARNING -  * Debugger is active!
+2025-11-05 10:34:26,931 - INFO -  * Debugger PIN: 316-340-985
+2025-11-05 10:39:15,355 - INFO - 127.0.0.1 - - [05/Nov/2025 10:39:15] "GET /debug/firebase HTTP/1.1" 200 -
+2025-11-05 10:39:35,077 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-05 10:39:35,077 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-05 10:39:35,080 - INFO -  * Restarting with stat
+2025-11-05 10:39:38,727 - WARNING -  * Debugger is active!
+2025-11-05 10:39:38,730 - INFO -  * Debugger PIN: 316-340-985
+2025-11-05 10:43:11,665 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-05 10:43:11,665 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-05 10:43:11,667 - INFO -  * Restarting with stat
+2025-11-05 10:43:15,189 - WARNING -  * Debugger is active!
+2025-11-05 10:43:15,192 - INFO -  * Debugger PIN: 316-340-985
+2025-11-05 10:44:43,172 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\test_firebase_login.py', reloading
+2025-11-05 10:44:43,615 - INFO -  * Restarting with stat
+2025-11-05 10:44:48,230 - WARNING -  * Debugger is active!
+2025-11-05 10:44:48,233 - INFO -  * Debugger PIN: 316-340-985
+2025-11-05 10:44:57,203 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\main.py', reloading
+2025-11-05 10:44:57,453 - INFO -  * Restarting with stat
+2025-11-05 10:45:00,968 - WARNING -  * Debugger is active!
+2025-11-05 10:45:00,972 - INFO -  * Debugger PIN: 316-340-985
+2025-11-05 10:45:20,716 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-05 10:45:20,716 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-05 10:45:20,719 - INFO -  * Restarting with stat
+2025-11-05 10:45:24,264 - WARNING -  * Debugger is active!
+2025-11-05 10:45:24,267 - INFO -  * Debugger PIN: 316-340-985
+2025-11-05 10:48:39,580 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\main.py', reloading
+2025-11-05 10:48:39,906 - INFO -  * Restarting with stat
+2025-11-05 10:48:44,395 - WARNING -  * Debugger is active!
+2025-11-05 10:48:44,398 - INFO -  * Debugger PIN: 316-340-985
+2025-11-05 10:52:52,366 - INFO - 127.0.0.1 - - [05/Nov/2025 10:52:52] "GET /debug/firebase HTTP/1.1" 200 -
+2025-11-05 10:52:53,814 - INFO - 127.0.0.1 - - [05/Nov/2025 10:52:53] "GET /debug/firebase HTTP/1.1" 200 -
+2025-11-05 10:55:27,167 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-05 10:55:27,167 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-05 10:55:27,169 - INFO -  * Restarting with stat
+2025-11-05 10:55:30,635 - WARNING -  * Debugger is active!
+2025-11-05 10:55:30,639 - INFO -  * Debugger PIN: 316-340-985
+2025-11-05 10:55:38,524 - INFO -  * Detected change in 'c:\\Users\\Administrator\\dairyiq\\app\\main.py', reloading
+2025-11-05 10:55:38,775 - INFO -  * Restarting with stat
+2025-11-05 10:55:45,471 - WARNING -  * Debugger is active!
+2025-11-05 10:55:45,473 - INFO -  * Debugger PIN: 316-340-985
+2025-11-05 10:55:54,973 - INFO - 127.0.0.1 - - [05/Nov/2025 10:55:54] "GET /debug/firebase HTTP/1.1" 200 -
+2025-11-05 10:57:08,242 - INFO - 127.0.0.1 - - [05/Nov/2025 10:57:08] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-05 10:57:09,020 - INFO - 127.0.0.1 - - [05/Nov/2025 10:57:09] "GET / HTTP/1.1" 200 -
+2025-11-05 10:57:09,427 - INFO - 127.0.0.1 - - [05/Nov/2025 10:57:09] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-11-05 10:57:09,470 - INFO - 127.0.0.1 - - [05/Nov/2025 10:57:09] "[36mGET /static/login-bg.webp HTTP/1.1[0m" 304 -
+2025-11-05 10:57:11,525 - INFO - 127.0.0.1 - - [05/Nov/2025 10:57:11] "GET / HTTP/1.1" 200 -
+2025-11-05 10:57:12,014 - INFO - 127.0.0.1 - - [05/Nov/2025 10:57:12] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-11-05 10:57:12,017 - INFO - 127.0.0.1 - - [05/Nov/2025 10:57:12] "[36mGET /static/login-bg.webp HTTP/1.1[0m" 304 -
+2025-11-05 10:57:12,095 - INFO - 127.0.0.1 - - [05/Nov/2025 10:57:12] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-11-05 10:57:15,767 - INFO - 127.0.0.1 - - [05/Nov/2025 10:57:15] "POST /login HTTP/1.1" 200 -
+2025-11-05 10:57:15,886 - INFO - 127.0.0.1 - - [05/Nov/2025 10:57:15] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-11-05 10:57:15,904 - INFO - 127.0.0.1 - - [05/Nov/2025 10:57:15] "[36mGET /static/login-bg.webp HTTP/1.1[0m" 304 -
+2025-11-05 11:01:11,745 - INFO - 127.0.0.1 - - [05/Nov/2025 11:01:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-05 11:01:11,779 - INFO - 127.0.0.1 - - [05/Nov/2025 11:01:11] "GET /index HTTP/1.1" 200 -
+2025-11-05 11:01:11,886 - INFO - 127.0.0.1 - - [05/Nov/2025 11:01:11] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-11-05 11:02:30,589 - ERROR - \u274c Unexpected Firestore error: 403 Cloud Firestore API has not been used in project pearl-dairy-farms-limited before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=pearl-dairy-farms-limited then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry. [reason: "SERVICE_DISABLED"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "firestore.googleapis.com"
+}
+metadata {
+  key: "serviceTitle"
+  value: "Cloud Firestore API"
+}
+metadata {
+  key: "containerInfo"
+  value: "pearl-dairy-farms-limited"
+}
+metadata {
+  key: "consumer"
+  value: "projects/pearl-dairy-farms-limited"
+}
+metadata {
+  key: "activationUrl"
+  value: "https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=pearl-dairy-farms-limited"
+}
+, locale: "en-US"
+message: "Cloud Firestore API has not been used in project pearl-dairy-farms-limited before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=pearl-dairy-farms-limited then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry."
+, links {
+  description: "Google developers console API activation"
+  url: "https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=pearl-dairy-farms-limited"
+}
+]
+2025-11-05 11:02:30,591 - INFO - 127.0.0.1 - - [05/Nov/2025 11:02:30] "POST /predict HTTP/1.1" 200 -
+2025-11-05 11:02:30,724 - INFO - 127.0.0.1 - - [05/Nov/2025 11:02:30] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-11-05 11:04:31,464 - ERROR - \u274c Unexpected Firestore error: 403 Cloud Firestore API has not been used in project pearl-dairy-farms-limited before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=pearl-dairy-farms-limited then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry. [reason: "SERVICE_DISABLED"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "firestore.googleapis.com"
+}
+metadata {
+  key: "serviceTitle"
+  value: "Cloud Firestore API"
+}
+metadata {
+  key: "containerInfo"
+  value: "pearl-dairy-farms-limited"
+}
+metadata {
+  key: "consumer"
+  value: "projects/pearl-dairy-farms-limited"
+}
+metadata {
+  key: "activationUrl"
+  value: "https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=pearl-dairy-farms-limited"
+}
+, locale: "en-US"
+message: "Cloud Firestore API has not been used in project pearl-dairy-farms-limited before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=pearl-dairy-farms-limited then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry."
+, links {
+  description: "Google developers console API activation"
+  url: "https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=pearl-dairy-farms-limited"
+}
+]
+2025-11-05 11:04:31,465 - INFO - 127.0.0.1 - - [05/Nov/2025 11:04:31] "POST /predict HTTP/1.1" 200 -
+2025-11-05 11:04:31,594 - INFO - 127.0.0.1 - - [05/Nov/2025 11:04:31] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-11-05 11:09:46,233 - INFO - 127.0.0.1 - - [05/Nov/2025 11:09:46] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-11-05 11:09:48,487 - INFO - 127.0.0.1 - - [05/Nov/2025 11:09:48] "GET /result/san9XeXUnB5gihTjvubw HTTP/1.1" 200 -
+2025-11-05 11:09:48,622 - INFO - 127.0.0.1 - - [05/Nov/2025 11:09:48] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-11-05 11:09:51,290 - INFO - 127.0.0.1 - - [05/Nov/2025 11:09:51] "[36mGET /static/favicon.png HTTP/1.1[0m" 304 -
+2025-11-05 11:10:00,673 - INFO - 127.0.0.1 - - [05/Nov/2025 11:10:00] "GET /history HTTP/1.1" 200 -
+2025-11-05 11:10:00,959 - INFO - 127.0.0.1 - - [05/Nov/2025 11:10:00] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-11-05 11:11:11,428 - INFO - 127.0.0.1 - - [05/Nov/2025 11:11:11] "GET /index HTTP/1.1" 200 -
+2025-11-05 11:11:11,524 - INFO - 127.0.0.1 - - [05/Nov/2025 11:11:11] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-11-05 11:12:17,399 - INFO - 127.0.0.1 - - [05/Nov/2025 11:12:17] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-11-05 11:12:19,442 - INFO - 127.0.0.1 - - [05/Nov/2025 11:12:19] "GET /result/b2gfcKQY7CTtvCF0EI0L HTTP/1.1" 200 -
+2025-11-05 11:12:19,554 - INFO - 127.0.0.1 - - [05/Nov/2025 11:12:19] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
+2025-11-05 11:12:25,545 - INFO - 127.0.0.1 - - [05/Nov/2025 11:12:25] "GET /history HTTP/1.1" 200 -
+2025-11-05 11:12:25,657 - INFO - 127.0.0.1 - - [05/Nov/2025 11:12:25] "[36mGET /static/favicon_white.png HTTP/1.1[0m" 304 -
