@@ -814,17 +814,19 @@
                     type="number"
                     step="any"
                     name="fat"
+                    id="fat"
                     placeholder="Enter fat content"
                     required
                   />
                 </div>
                 <div class="form-group">
-                  <label for="snf">SNF (Solids-not-fat)</label>
+                  <label for="density">Density</label>
                   <input
                     type="number"
                     step="any"
-                    name="snf"
-                    placeholder="Enter SNF value"
+                    name="density"
+                    id="density"
+                    placeholder="Enter density value"
                     required
                   />
                 </div>
@@ -876,15 +878,29 @@
                 </div>
               </div>
 
-              <div class="form-group">
-                <label for="scc">Somatic Cell Count</label>
-                <input
-                  type="number"
-                  step="any"
-                  name="scc"
-                  placeholder="Enter SCC value"
-                  required
-                />
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="scc">Somatic Cell Count</label>
+                  <input
+                    type="number"
+                    step="any"
+                    name="scc"
+                    placeholder="Enter SCC value"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="snf">SNF (Solids-not-fat)</label>
+                  <input
+                    type="number"
+                    step="any"
+                    name="snf"
+                    id="snf"
+                    placeholder="SNF will be calculated automatically"
+                    readonly
+                    required
+                  />
+                </div>
               </div>
 
               <div class="btn-group">
@@ -970,6 +986,28 @@
         const batchInfo = document.getElementById("batchInfo");
         const predictorForm = document.getElementById("predictorForm");
         const milkForm = document.getElementById("milkForm");
+        const densityInput = document.getElementById("density");
+        const fatInput = document.getElementById("fat");
+        const snfInput = document.getElementById("snf");
+
+        // Function to calculate SNF
+        function calculateSNF() {
+          const density = parseFloat(densityInput.value);
+          const fat = parseFloat(fatInput.value);
+
+          if (!isNaN(density) && !isNaN(fat)) {
+            // SNF = [(Density-1)*(1000/4)]+(0.2*fat(%))
+            const snf = (density - 1) * (1000 / 4) + 0.2 * fat;
+            // Round to 2 decimal places
+            snfInput.value = snf.toFixed(2);
+          } else {
+            snfInput.value = "";
+          }
+        }
+
+        // Add event listeners for density and fat inputs
+        densityInput.addEventListener("input", calculateSNF);
+        fatInput.addEventListener("input", calculateSNF);
 
         // ✅ Validate Batch Info before moving to Testing section
         nextBtn.addEventListener("click", () => {
